@@ -1,0 +1,57 @@
+.card-fixed-height {
+  height: 350px; /* Adjust height as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-body {
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e91e63; /* Adjust the color as needed */
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #e91e63; /* Adjust the color as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  flex-grow: 1; /* Ensures the description can take up space */
+}
+
+.card-text.description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-box-orient: vertical;
+}
+
+
+
+.badge {
+  font-size: 0.75rem;
+  padding: 0.5em 0.75em;
+  color: red;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}

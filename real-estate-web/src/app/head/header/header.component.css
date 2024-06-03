@@ -1,0 +1,12 @@
+
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+
+
+.navbar-brand .brand-text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  color:white;
+}

@@ -1,0 +1,49 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background-color: #23282d;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-left, .footer-center, .footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.footer-left span, .footer-right a, .footer-right span, .footer-center span {
+  margin: 0 5px;
+}
+
+.footer-right a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.footer-right a:hover {
+  color: #ccc;
+}
+
+.footer-right a:not(:last-child)::after {
+  content: '|';
+  margin-left: 10px;
+}
+
+.footer .fab {
+  margin: 0 5px;
+}
